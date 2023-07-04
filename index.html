@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Student Management CRUD</title>
+    <script src="https://kit.fontawesome.com/74e383a765.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <h1>Student Management CRUD</h1>
+    <div id="div-student-form">
+        <form id="student-form">
+            <input type="text" id="name" placeholder="Name" required />
+            <input type="email" id="email" placeholder="Email" required />
+            <input type="text" id="grade" placeholder="GPA" required />
+            <input type="number" id="age" placeholder="Age" required />
+            <input type="text" id="degree" placeholder="Degree" required />
+            <button type="submit" id="submit-btn">Add Student</button>
+        </form>
+    </div>
+    <div id="search-container">
+        <input type="text" id="search-input" placeholder="Search by name, email, or degree" />
+    </div>
+
+    <table id="students-table">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Age</th>
+                <th>GPA</th>
+                <th>Degree</th>
+            </tr>
+        </thead>
+        <tbody id="table-body">
+
+        </tbody>
+    </table>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

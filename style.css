@@ -1,0 +1,82 @@
+* {
+    color: #ffffff;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    color: #ffffff;
+    box-sizing: border-box;
+    margin: 0px;
+    background-color: #000000;
+    padding-left: 10px;
+}
+
+h1 {
+    font-family: Inter;
+    color: #ffffff;
+}
+
+#student-form {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 10px;
+}
+
+#student-form input {
+    width: 30%;
+    border: 1px solid #ffffff;
+    color: white;
+    height: 24px;
+    background-color: transparent;
+    padding: 10px;
+}
+
+#submit-btn {
+    width: 40%;
+    color: #000000;
+    border: none;
+    background-color: #ffffff;
+    height: 32px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+#search-container {
+    margin-top: 30px;
+    width: 100%;
+}
+
+#search-container input {
+    width: 90%;
+    border: 1px solid #ffffff;
+    color: Grey;
+    height: 24px;
+    background-color: transparent;
+    padding: 10px;
+}
+
+#students-table {
+    color: #ffffff;
+    border-collapse: collapse;
+    -webkit-border-horizontal-spacing: 0px;
+    -webkit-border-vertical-spacing: 0px;
+    width: 90%;
+    margin-top: 30px;
+    border: 1px solid #ffffff;
+}
+
+#students-table th {
+    border: 1px solid #ffffff;
+    padding: 10px;
+    font-weight: lighter;
+    text-align: left;
+}
+
+#students-table td {
+    border-right: 1px solid #ffffff;
+    padding: 10px;
+    margin: 10px;
+}
